@@ -1,0 +1,7 @@
+- name: download binary
+  get_url: >
+    dest={{docker_compose_bin}}
+    url=https://github.com/docker/compose/releases/download/{{docker_compose_version}}/docker-compose-Linux-x86_64
+
+- name: set binary permissions
+  file: dest={{docker_compose_bin}} state=file mode=755

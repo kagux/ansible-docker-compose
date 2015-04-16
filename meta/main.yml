@@ -1,0 +1,10 @@
+dependencies: []
+galaxy_info:
+  author: Boris Mikhaylov
+  description: Installs and configures docker-compose
+  platforms:
+    - ubuntu
+
+  categories:
+    - development
+    - system
