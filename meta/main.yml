@@ -1,10 +1,14 @@
 dependencies: []
+min_ansible_version: 1.2
 galaxy_info:
   author: Boris Mikhaylov
+  license: MIT
   description: Installs and configures docker-compose
   platforms:
-    - ubuntu
+    - name: Ubuntu
+      versions:
+       - trusty
 
-  categories:
+  galaxy_tags:
     - development
     - system
